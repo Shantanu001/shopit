@@ -1,0 +1,104 @@
+[
+    {
+        "name":"Brushes",
+        "price":"2100",
+        "description":"A beautiful painting",
+        "ratings":4.2,
+        "images":[
+            {
+                "public_id":"Brushes",
+                "url":"https://pixabay.com/get/ga78d5913566c2084665d2972477054275acfccbde90d0500ab567074f5fa532f207bf3405215c2b0a75d73ca392b6bdbcab5973c7e57e7543b4bfff5f0a48b08_1280.jpg"
+            }
+        ],
+        "category":"Paintings",
+        "seller":"Natural Glows",
+        "stock":2,
+        "numOfReviews":0,
+        "reviews":[]
+    },
+    {
+        "name":"Table pot",
+        "price":"1800",
+        "description":"A beautiful table pot",
+        "ratings":4.1,
+        "images":[
+            {
+                "public_id":"Table pot",
+                "url":"https://pixabay.com/get/g93dd4870a8466605ccec3fdc2f29f4e06c8c2af3a1c9fb36e5dbfd5585eb2d3ef2d4306024f427ff5c9707cb9ea756dd3e5244c82fee250ae0bb4136515f4804_1280.jpg"
+            }
+        ],
+        "category":"Home Decor",
+        "seller":"Natural Glows",
+        "stock":1,
+        "numOfReviews":0,
+        "reviews":[]
+    },
+    {
+        "name":"Chicken Idols",
+        "price":"850",
+        "description":"A beautiful chicken idol",
+        "ratings":3.7,
+        "images":[
+            {
+                "public_id":"Chicken Idols",
+                "url":"https://pixabay.com/get/g3028732508ec66d99c2ebed62683b0c360db11285b2d823600528c64d2b892bede3b7bfd7d44eed8e0694429b783146dde8afef2181952ea8592c34832c40db4_1280.jpg"
+            }
+        ],
+        "category":"Handicrafts",
+        "seller":"Natural Glows",
+        "stock":9,
+        "numOfReviews":0,
+        "reviews":[]
+    },
+    {
+        "name":"Photo frame",
+        "price":"1200",
+        "description":"A beautiful photo frame",
+        "ratings":4.9,
+        "images":[
+            {
+                "public_id":"cover",
+                "url":"https://pixabay.com/get/g79ab2e465d47cdf51298d659c49ee6d15be147924cce8e778f2a4f76d11222732f35d56a61b99c25889d8c63fc66d0ee67d3bc40506d240ac069217f9a49fd8c_1280.jpg"
+            }
+        ],
+        "category":"Gift items",
+        "seller":"Natural Glows",
+        "stock":2,
+        "numOfReviews":0,
+        "reviews":[]
+    },
+    {
+        "name":"An antique Painting",
+        "price":"4500",
+        "description":"A beautiful antique painting",
+        "ratings":4.5,
+        "images":[
+            {
+                "public_id":"An antique Painting",
+                "url":"https://pixabay.com/get/geaf8e1fcac24d915f26572db157ba78088aff533003656be79bbefabab6654fce0e2c9fd8091edf6cc13636fe86731aed123d8ee049590ab1f2a53901af4e30a_1280.png"
+            }
+        ],
+        "category":"Paintings",
+        "seller":"Natural Glows",
+        "stock":4,
+        "numOfReviews":0,
+        "reviews":[]
+    },
+    {
+        "name":"Flower Pot",
+        "price":"2400",
+        "description":"A beautiful antique painting",
+        "ratings":3.9,
+        "images":[
+            {
+                "public_id":"Flower Pot",
+                "url":"https://pixabay.com/get/gf394317a9e332d99dcaaf2ddddea9ed40c34e37f6eb765869e7f88a5cd75488644905bb606bd35fe081c3192e150376fed3d58b67cb1e51db52bec0ed38abd89_1280.jpg"
+            }
+        ],
+        "category":"Home Decor",
+        "seller":"Natural Glows",
+        "stock":8,
+        "numOfReviews":0,
+        "reviews":[]
+    }
+]
