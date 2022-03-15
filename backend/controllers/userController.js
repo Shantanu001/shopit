@@ -1,6 +1,7 @@
 const User = require("../models/user");
 const catchAsyncError = require("../middlewares/catchAsyncErrors");
 const ErrorHandler = require("../utils/errorHandler");
+const sendToken = require("../utils/jwtToken");
 
 
 
@@ -18,11 +19,8 @@ exports.newUser = catchAsyncError(async(req,res,next)=>{
             url:"https://res.cloudinary.com/dbobpxkad/image/upload/v1638528163/pexels-andrea-piacquadio-3760263_tk8hes.jpg"
         }
     });
-    const token =  user.getJwtToken();
-    res.status(201).json({
-        success:true,
-        token
-    })
+
+    sendToken(user,200,res);
 });
 
 exports.loginUser = catchAsyncError(async(req,res,next)=>{
@@ -40,11 +38,8 @@ exports.loginUser = catchAsyncError(async(req,res,next)=>{
     if(!isPasswordMatched) {
         return next(new ErrorHandler("Invalid Email Id or Password",401));
     }
-    const token = user.getJwtToken();
-    console.log(token);
-    res.status(201).json({
-        success:true,
-        token
-    });
+    
+    sendToken(user,200,res);
+
 
 })
