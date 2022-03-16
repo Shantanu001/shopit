@@ -1,6 +1,7 @@
 const express = require("express");
 const { route } = require("../app");
 const router = express.Router();
+const isAuthenticatedUser = require("../middlewares/auth");
 
 const {
   getProduct,
@@ -11,7 +12,7 @@ const {
   deleteProducts,
 } = require("../controllers/productController");
 
-router.route("/products").get(getProduct);
+router.route("/products").get(isAuthenticatedUser,getProduct);
 router.route("/product/:id").get(getProductById);
 
 router.route("/admin/product/new").post(newProduct);
